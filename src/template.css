@@ -1,0 +1,158 @@
+.weekly-container * {
+  box-sizing: border-box !important; 
+  padding: 0;
+  margin: 0;
+}
+.weekly-container a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.weekly-container a.more {
+  color: rgb(0, 0, 255) !important;
+}
+.clearfix:before,  
+.clearfix:after {
+  display: block !important; 
+  content: '' !important; 
+  clear: both !important; 
+  height: 0 !important; 
+  visibility: hidden !important;
+}
+.weekly-container h1,  
+.weekly-container h2 {
+  margin-top: -8px !important; 
+  margin-bottom: 15px !important;
+}
+.weekly-container h1 {
+  font-size: 26px !important; 
+  color: #13264d !important;
+}
+.weekly-container h2 {
+  font-size: 18px !important; 
+  color: #49536c !important;
+  font-weight: bold !important;
+  border-left: 3px solid #ee5555 !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  padding-left: 10px !important;
+  margin: 15px auto !important;
+}
+.weekly-container h3 {
+  font-size: 18px !important; 
+  color: #c5c5c5 !important; 
+  padding-left: 5px !important;
+  background-color: #1e2c43 !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  text-align: center !important;
+  font-weight: normal;
+}
+.weekly-container h3 img {
+  vertical-align: middle !important;
+  margin-left: 20px !important;
+  margin-top: -2px !important;
+}
+.weekly-container h4 {
+  width: 100% !important;
+  position: absolute !important;
+  padding-right: 15px !important;
+  font-size: 20px !important;
+  text-align: right !important;
+  font-weight: normal !important;
+}
+.weekly-container h4 * {
+  vertical-align: middle !important;
+}
+.weekly-container h5 {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  padding-left: 30px !important;
+  margin-bottom: 15px !important;
+  margin-top: 25px !important;
+}
+.weekly-container p {
+  line-height: 1.8 !important; 
+  letter-spacing: 1px !important;
+  margin-bottom: 8px !important;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.bold {
+  font-weight: 900!important;
+}
+
+.weekly-container {
+  width: 1000px !important; 
+  margin: 20px auto !important;
+  padding: 10px !important;
+  background: #fff !important;
+  border: 1px solid #f5f5f5 !important;
+  font-family: 'Microsoft YaHei, Arial' !important;
+  font-size: 14px !important;
+  color: #111 !important;
+}
+.weekly-hd {
+  height: 198px; 
+  position: relative;
+  background: url(https://itzstatic.b0.upaiyun.com/event/izhoukan/20170914/banner.jpg) no-repeat center/100%;
+}
+.logo {
+  position: absolute !important; 
+  top: 0px !important;
+  left: 20px !important;
+}
+.box {
+  background: #f7f7f7 !important; 
+  padding: 10px 20px 30px !important; 
+  margin-top: 10px !important;
+}
+.box p {
+  text-indent: 2em !important;
+}
+.bottom {
+  padding-bottom: 30px !important;
+  text-align: center !important;
+}
+.bottom p {
+  line-height: 1.5 !important;
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+  text-indent: 0 !important;
+}
+.bottom span {
+  display: inline-block !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  margin-top: 20px !important;
+  margin-bottom: 15px !important;
+  padding: 0 10px !important;
+  font-size: 18px !important;
+  color: #49536c !important;
+  border-left: 3px solid #ee5555;
+  border-right: 3px solid #ee5555;
+}
+.img-wrap {
+  text-align: center !important; 
+  margin: 20px auto !important; 
+  height: 250px !important;
+  overflow: hidden !important;
+}
+.img-wrap img {
+  display: inline-block !important;
+  height: 100% !important;
+}
+.link-container {
+  text-align: right !important;
+  padding-right: 2% !important;
+}
+.question {
+  font-weight: 900!important;
+  margin-top: 20px!important;
+  text-decoration: underline;
+}
+.department_talker {
+  float: right !important;
+  margin-top: -28px !important;
+  margin-left: 20px !important;
+}

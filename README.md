@@ -15,4 +15,7 @@ npm run dev
 npm run build
 ```
 
+### 注意：构建打包后需确认  index.html 中的路径是否正确
+
+
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

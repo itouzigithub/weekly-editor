@@ -3,7 +3,10 @@
     <div id="app-holder" :contenteditable="isEdit">
       <div class="toutiao-container">
         <div class="toutiao-hd">
-          <h1>头条·第一期</h1>
+          <h1>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAMAAAAjZwjSAAAAulBMVEUAAAD//v798PD86er++vr76en//f3+/Pz86+v76er86er//P3++vv+8/P86+v76en75ub76er/+/v++Pn++fn++Pj99fX98vP98vL88PD97+/98fH87+/87e786+v86+v87e375+j++vr+9/f99vb99PT98vL98fH97u786+v86uv86uv76Oj++/v++/v++/r+9/f99fX98fH98PD87e798fH87Oz76en+9/f87e376ur97/D76Oj///8l58oZAAAAPXRSTlMA/oYW4hP58jMsIvXrm0MpCgTw2dXRvKahiX96c15aTCYH3sbBqpmQZkYwGw/t5+TKt5WMb1pQOc5rVVEe4OMVuQAAAb9JREFUSMeNldeSgkAQRWcEBBQMgCKCYk6Yc5r//62tcrEW6MsW55E6xTDdtxuWQtH8o2max8Wgyf5h0B1b4gOX3VqutvZ3XPyhnhrYq7RFhukaeneRhZeA1zgIirWiYo8LwJl4zbZAdIiojKDYJuKtDEWXiCGHok/EugXFPq1OC3ktiRHmwOML1BiHijOGqO2y75vlhEIbpzwjGMa9iOp6vSINE0UPHDWuUlme659nUuhPDLWqqkbAEki1S2cynhy81+D3EG//ra/dJ/FVlPjbdHMrYuQgYnmsTpuvxqeDPCu6uob4sjkPoTS89WajREZGtWSrve7iugz7j9LcHKeDZGsswYULzsscRMjR021RBWakZVK2xV41ZGneMha7LINu4JEhsViq8GC6fl50tnAeL0isFt0TLqOcgcefQOwA8a5QT9nDvUOp2ODkPtrdoDFbemfcGLkOxCeojv0G4gn1GeV/CkS06JsHtKCQOAFiD4iSDMQrEJccREcD4kNQnDUQfSBOGaAERJMVDNkcXdqBg0q5WQVDtqxS0dJZscmyI9BAF/6z0MAUFLVNQfEoAHKFijsk8pCKgVcieF36xh/I4wwpnMQZQwAAAABJRU5ErkJggg==" width="20px" style="vertical-align: middle">
+            <span>头条·第一期</span>
+          </h1>
           <h4 style="top: 90px">聚焦热点资讯，掌握新闻动态</h4>
         </div>
 
@@ -59,7 +62,7 @@ export default {
     var sheet = document.styleSheets[length - 1];
     sheet.ownerNode.setAttribute('id', 'style-toutiao');
 
-    setInterval(this.bindAnchorClick, 500)
+    setInterval(this.bindAnchorClick, 600)
   },
 
   methods: {

@@ -1,11 +1,13 @@
 var path = require('path')
 var webpack = require('webpack')
 
+const Jarvis = require("webpack-jarvis");
+
 module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: './dist/',
+    publicPath: '/dist/',
     filename: 'build.js'
   },
   module: {
@@ -56,14 +58,21 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    overlay: true,
-    host: '0.0.0.0'
+    overlay: true
   },
   performance: {
     hints: false
   },
   devtool: '#eval-source-map'
 }
+
+// if (process.env.NODE_ENV === 'development') {
+//   module.exports.plugins = (module.exports.plugins || []).concat([
+//     new Jarvis({
+//       port: 1337 // optional: set a port
+//     })
+//   ])
+// }
 
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'

@@ -66,7 +66,7 @@
 .toutiao-hd {
   height: 133px; 
   position: relative;
-  background: url(https://itzstatic.b0.upaiyun.com/event/izhoukan/20170914/banner.jpg) no-repeat center/100%;
+  background: url(https://itzstatic.b0.upaiyun.com/event/izhoukan/20180202/toutiao.jpg) no-repeat center/100%;
 }
 .toutiao-hd h1 {
   color: #fff;
@@ -79,7 +79,7 @@
   padding: 10px 40px 20px !important; 
 }
 .toutiao-box p {
-  text-indent: 2em !important;
+  padding-left: 2em !important;
 }
 .toutiao-link-container {
   text-align: right !important;

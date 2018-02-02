@@ -85,3 +85,8 @@
   text-align: right !important;
   padding-right: 2% !important;
 }
+.toutiao-angle {
+  font-size: 12px;
+  padding-left: 2px;
+  letter-spacing: -1px;
+}

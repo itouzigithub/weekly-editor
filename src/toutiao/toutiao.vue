@@ -13,14 +13,14 @@
             <p>在现金贷的一片热潮中，有一家公司却“反其道行之”，不断强调自己做的是“实体经济”，这家科技金融公司就是爱投资。</p>
             <p>日前，爱投资高级副总裁韩世琪在出席“2017互联网金融合规与创新论坛”时指出，中国是绝对不会再缺一个做现金贷的平台了，反倒是非常缺少给实体经济输血的平台。</p>
             <p class="toutiao-link-container">
-              <a class="more js-more" target="_blank" href="http://hy.stock.cnfol.com/hangyezonghe/20171127/25676683.shtml">点击查看更多</a>
+              <a class="more js-more" target="_blank" href="http://hy.stock.cnfol.com/hangyezonghe/20171127/25676683.shtml">点击查看更多<span class="toutiao-angle">>>></span></a>
             </p>
           </div>
           <div class="clearfix js-news">
             <h2><a class="js-title" target="_blank" href="http://www.p2peye.com/forum.php?mod=viewthread&amp;ordertype=1&amp;tid=1930893">爱投资-iSAFE爱心助农公益活动启动</a></h2>
             <p>十九大报告提出，重点攻克深度贫困地区脱贫任务，确保到二〇二〇年我国现行标准下农村贫困人口实现脱贫，贫困县全部摘帽，解决区域性整体贫困，做到脱真贫、真脱贫。近日，爱投资旗下公益品牌iSAFE启动爱心助农公益活动，通过“互联网+公益助农”的方式在线上传播公益，助力贫困地区三农产业发展。</p>
             <p class="toutiao-link-container">
-              <a class="more js-more" target="_blank" href="http://www.p2peye.com/forum.php?mod=viewthread&amp;ordertype=1&amp;tid=1930893">点击查看更多</a>
+              <a class="more js-more" target="_blank" href="http://www.p2peye.com/forum.php?mod=viewthread&amp;ordertype=1&amp;tid=1930893">点击查看更多<span class="toutiao-angle">>>></span></a>
             </p>
           </div>     
         </div>

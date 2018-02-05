@@ -174,6 +174,17 @@ export default {
       }
     },
 
+    getStyle () {
+      var styleEl = document.getElementById('style-weekly');
+      var sheet = styleEl.sheet || styleEl.styleSheet;
+      var rules = sheet.cssRules || sheet.rules;
+      var rule = '';
+      for (var i = 0; i < rules.length; i++) {
+        rule += (rules[i].selectorText + '{' + rules[i].style.cssText + '}')
+      }
+      return `<style>${rule}</style>`
+    },
+
     save () {
       if (this.isEdit) {
         this.isEdit = false;
